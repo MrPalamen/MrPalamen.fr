@@ -1,0 +1,96 @@
+/*  -------------------------------------------------------------------
+[Control panel stylesheet]
+
+Project:    Dynasty - Responsive Coming Soon Template
+Version:    1.0
+Autor:      -SitoWeb-
+http://themeforest.net/user/-SitoWeb-
+
+
+[Table of contents]
+
+1. Control panel
+
+-------------------------------------------------------------------
+1. Control panel
+------------------------------------------------------------------- */
+#control-panel {
+    position: fixed;
+    right: 0;
+    top: 120px;
+    width: 40px;
+    height: 315px;
+    overflow: hidden;
+    color: #6C7A89;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    z-index: 5000;
+}
+#control-panel.show {
+    width: 240px;
+}
+#control-panel-button {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #FFF;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+#control-panel-content {
+    background-color: #FFF;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    width: 200px;
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.control-panel-header {
+    margin: 10px 0 10px;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 14px;
+}
+.control-panel-separator {
+    border-top: 1px solid #6C7A89;
+    padding-top: 10px;
+    margin-top: 15px
+}
+.color-skin-button {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #FFF;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+}
+#control-panel a {
+    display: block;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 15px;
+    text-align: left;
+}
+.color-skin-button:hover {
+    border: 1px solid #6C7A89;
+}
+#green-color-skin-button {
+    background-color: #03A678;
+    background-image: linear-gradient(120deg, #008D6A, #008D6A 50%, #03A678 50%, #03A678 100%);
+}
+#blue-color-skin-button {
+    background-color: #22A7F0;
+    background-image: linear-gradient(120deg, #1E8BC3, #1E8BC3 50%, #22A7F0 50%, #22A7F0 100%);
+}
+#yellow-color-skin-button {
+    background-color: #F1C40F;
+    background-image: linear-gradient(120deg, #F39C12, #F39C12 50%, #F1C40F 50%, #F1C40F 100%);
+}

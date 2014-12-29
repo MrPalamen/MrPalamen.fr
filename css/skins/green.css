@@ -1,0 +1,73 @@
+/*-----------------------------------------------------------------
+[Green skin stylesheet]
+
+Project:    Dynasty - Responsive Coming Soon Template
+Version:    1.0
+Autor:      -SitoWeb-
+http://themeforest.net/user/-SitoWeb-
+
+
+[Table of contents]
+
+1. Background color
+2. Text color
+3. Border color
+4. Long shadow color
+5. Navigation menu icon color
+
+[Color codes]
+
+Light color:                #03A678 (Free Speech Aquamarine)
+Light color shadow:         #03956C
+Light color hover shadow:   #028560
+Dark color:                 #008D6A (Dark Green)
+Dark color shadow:          #007F5F
+Dark color hover shadow:    #007155
+
+-------------------------------------------------------------------
+1. Background color
+------------------------------------------------------------------- */
+header .my-fa-icon, .countdown-section, .people .people-image-overlay .fa, button:hover, .ca-menu li, #external-links a .my-fa-icon {
+    background-color: #03A678;
+}
+
+/*-----------------------------------------------------------------
+2. Text color
+------------------------------------------------------------------- */
+.logo span, .info-box a, .info-box h1, #preloader, #title span strong, #about-page .fa, .about-mini-box-subtitle, .people .people-image-overlay h3, .people .people-title, button, #subscribe input, #contact-page .contact-box .contact-icon, .input-icon:before, #contact-page .contact-box input, #contact-page .contact-box textArea {
+    color: #03A678;
+}
+
+/*-----------------------------------------------------------------
+3. Border color
+------------------------------------------------------------------- */
+button {
+    border: 1px solid #03A678;
+}
+.input-icon:before {
+    border-right: 1px solid #03A678;
+}
+a.dynasty-link:hover, #subscribe input, #contact-page .contact-box input, #contact-page .contact-box textArea {
+    border-bottom: 1px solid #03A678;
+}
+
+/*-----------------------------------------------------------------
+4. Long shadow color
+------------------------------------------------------------------- */
+.shape, .countdown-section {
+    text-shadow: 1px 1px #03956C, 2px 2px #03956C, 3px 3px #03956C, 4px 4px #03956C, 5px 5px #03956C, 6px 6px #03956C, 7px 7px #03956C, 8px 8px #03956C, 9px 9px #03956C, 10px 10px #03956C, 11px 11px #03956C, 12px 12px #03956C, 13px 13px #03956C, 14px 14px #03956C, 15px 15px #03956C, 16px 16px #03956C, 17px 17px #03956C, 18px 18px #03956C, 19px 19px #03956C, 20px 20px #03956C, 21px 21px #03956C, 22px 22px #03956C, 23px 23px #03956C, 24px 24px #03956C, 25px 25px #03956C, 26px 26px #03956C, 27px 27px #03956C, 28px 28px #03956C, 29px 29px #03956C, 30px 30px #03956C, 31px 31px #03956C, 32px 32px #03956C, 33px 33px #03956C, 34px 34px #03956C, 35px 35px #03956C, 36px 36px #03956C, 37px 37px #03956C, 38px 38px #03956C, 39px 39px #03956C, 40px 40px #03956C, 41px 41px #03956C, 42px 42px #03956C, 43px 43px #03956C, 44px 44px #03956C, 45px 45px #03956C, 46px 46px #03956C, 47px 47px #03956C, 48px 48px #03956C, 49px 49px #03956C, 50px 50px #03956C, 51px 51px #03956C, 52px 52px #03956C, 53px 53px #03956C, 54px 54px #03956C, 55px 55px #03956C, 56px 56px #03956C, 57px 57px #03956C, 58px 58px #03956C, 59px 59px #03956C, 60px 60px #03956C, 61px 61px #03956C, 62px 62px #03956C, 63px 63px #03956C, 64px 64px #03956C, 65px 65px #03956C, 66px 66px #03956C, 67px 67px #03956C, 68px 68px #03956C, 69px 69px #03956C, 70px 70px #03956C, 71px 71px #03956C, 72px 72px #03956C, 73px 73px #03956C, 74px 74px #03956C, 75px 75px #03956C;
+}
+.shape:hover {
+    text-shadow: 1px 1px #028560, 2px 2px #028560, 3px 3px #028560, 4px 4px #028560, 5px 5px #028560, 6px 6px #028560, 7px 7px #028560, 8px 8px #028560, 9px 9px #028560, 10px 10px #028560, 11px 11px #028560, 12px 12px #028560, 13px 13px #028560, 14px 14px #028560, 15px 15px #028560, 16px 16px #028560, 17px 17px #028560, 18px 18px #028560, 19px 19px #028560, 20px 20px #028560, 21px 21px #028560, 22px 22px #028560, 23px 23px #028560, 24px 24px #028560, 25px 25px #028560, 26px 26px #028560, 27px 27px #028560, 28px 28px #028560, 29px 29px #028560, 30px 30px #028560, 31px 31px #028560, 32px 32px #028560, 33px 33px #028560, 34px 34px #028560, 35px 35px #028560, 36px 36px #028560, 37px 37px #028560, 38px 38px #028560, 39px 39px #028560, 40px 40px #028560, 41px 41px #028560, 42px 42px #028560, 43px 43px #028560, 44px 44px #028560, 45px 45px #028560, 46px 46px #028560, 47px 47px #028560, 48px 48px #028560, 49px 49px #028560, 50px 50px #028560, 51px 51px #028560, 52px 52px #028560, 53px 53px #028560, 54px 54px #028560, 55px 55px #028560, 56px 56px #028560, 57px 57px #028560, 58px 58px #028560, 59px 59px #028560, 60px 60px #028560, 61px 61px #028560, 62px 62px #028560, 63px 63px #028560, 64px 64px #028560, 65px 65px #028560, 66px 66px #028560, 67px 67px #028560, 68px 68px #028560, 69px 69px #028560, 70px 70px #028560, 71px 71px #028560, 72px 72px #028560, 73px 73px #028560, 74px 74px #028560, 75px 75px #028560;
+}
+
+/*-----------------------------------------------------------------
+5. Navigation menu icon color
+------------------------------------------------------------------- */
+.ca-icon{
+    background-color: #008D6A;
+    text-shadow: 1px 1px #007F5F, 2px 2px #007F5F, 3px 3px #007F5F, 4px 4px #007F5F, 5px 5px #007F5F, 6px 6px #007F5F, 7px 7px #007F5F, 8px 8px #007F5F, 9px 9px #007F5F, 10px 10px #007F5F, 11px 11px #007F5F, 12px 12px #007F5F, 13px 13px #007F5F, 14px 14px #007F5F, 15px 15px #007F5F, 16px 16px #007F5F, 17px 17px #007F5F, 18px 18px #007F5F, 19px 19px #007F5F, 20px 20px #007F5F, 21px 21px #007F5F, 22px 22px #007F5F, 23px 23px #007F5F, 24px 24px #007F5F, 25px 25px #007F5F, 26px 26px #007F5F, 27px 27px #007F5F, 28px 28px #007F5F, 29px 29px #007F5F, 30px 30px #007F5F, 31px 31px #007F5F, 32px 32px #007F5F, 33px 33px #007F5F, 34px 34px #007F5F, 35px 35px #007F5F, 36px 36px #007F5F, 37px 37px #007F5F, 38px 38px #007F5F, 39px 39px #007F5F, 40px 40px #007F5F, 41px 41px #007F5F, 42px 42px #007F5F, 43px 43px #007F5F, 44px 44px #007F5F, 45px 45px #007F5F, 46px 46px #007F5F, 47px 47px #007F5F, 48px 48px #007F5F, 49px 49px #007F5F, 50px 50px #007F5F, 51px 51px #007F5F, 52px 52px #007F5F, 53px 53px #007F5F, 54px 54px #007F5F, 55px 55px #007F5F, 56px 56px #007F5F, 57px 57px #007F5F, 58px 58px #007F5F, 59px 59px #007F5F, 60px 60px #007F5F;
+}
+.ca-menu li:hover .ca-icon{
+    text-shadow: 1px 1px #007155, 2px 2px #007155, 3px 3px #007155, 4px 4px #007155, 5px 5px #007155, 6px 6px #007155, 7px 7px #007155, 8px 8px #007155, 9px 9px #007155, 10px 10px #007155, 11px 11px #007155, 12px 12px #007155, 13px 13px #007155, 14px 14px #007155, 15px 15px #007155, 16px 16px #007155, 17px 17px #007155, 18px 18px #007155, 19px 19px #007155, 20px 20px #007155, 21px 21px #007155, 22px 22px #007155, 23px 23px #007155, 24px 24px #007155, 25px 25px #007155, 26px 26px #007155, 27px 27px #007155, 28px 28px #007155, 29px 29px #007155, 30px 30px #007155, 31px 31px #007155, 32px 32px #007155, 33px 33px #007155, 34px 34px #007155, 35px 35px #007155, 36px 36px #007155, 37px 37px #007155, 38px 38px #007155, 39px 39px #007155, 40px 40px #007155, 41px 41px #007155, 42px 42px #007155, 43px 43px #007155, 44px 44px #007155, 45px 45px #007155, 46px 46px #007155, 47px 47px #007155, 48px 48px #007155, 49px 49px #007155, 50px 50px #007155, 51px 51px #007155, 52px 52px #007155, 53px 53px #007155, 54px 54px #007155, 55px 55px #007155, 56px 56px #007155, 57px 57px #007155, 58px 58px #007155, 59px 59px #007155, 60px 60px #007155;
+}
